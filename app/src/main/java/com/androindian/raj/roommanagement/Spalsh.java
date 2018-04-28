@@ -22,6 +22,7 @@ public class Spalsh extends AppCompatActivity {
 
             @Override
             public void run() {
+                //cd
                 SharedPreferences preferences=
                         getSharedPreferences("Room",MODE_PRIVATE);
                 UserMobile=preferences.getString("Mobile","");
